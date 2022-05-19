@@ -8,6 +8,14 @@ body {
   color: gray;
   background-position: 40%;
   background-size: 6%;
+  background-image: url(/assets/search-solid.svg);
+  background-repeat: no-repeat;
+  text-indent: 20px;
+}
+
+:focus::-webkit-input-placeholder {
+  color: transparent;
+  background-image: none;
 }
 
 input.empty {
@@ -56,4 +64,12 @@ input.empty {
 
 .logo {
   margin-left: 192px;
+}
+
+.middlearea {
+  max-height: 200px !important;
+}
+
+.fas.fa-ellipsis-h {
+  float: right;
 }
